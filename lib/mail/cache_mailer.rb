@@ -1,4 +1,3 @@
-require 'action_mailer'
 require 'tmpdir'
 
 module Mail
@@ -30,7 +29,7 @@ module Mail
       end
     end
 
-    def CacheMailer.clear!
+    def CacheMailer.clear_cache!
       File.delete(CACHE_FILE) if File.exists?(CACHE_FILE)
     end
   end

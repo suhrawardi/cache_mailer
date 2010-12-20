@@ -20,5 +20,5 @@ Gem::Specification.new do |s|
   s.rubygems_version = "1.3.6"
   s.summary = "Add the ability to cache action mailer deliveries"
 
-  s.add_runtime_dependency("actionmailer", [">= 3.0.0"])
+  s.add_runtime_dependency("actionmailer", [">= 3.0.1"])
 end
